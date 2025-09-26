@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <header>
+        <h2>Create your Todo-List</h2>
+        <br />
+        <form action="" id="task-form">
+          <input
+            type="text"
+            id="task-input"
+            placeholder="What are your tasks for today?"
+          />
+          <input type="submit" value="Add" id="submit-button" />
+        </form>
+      </header>
+
+      <main>
+        <section class="task-list">
+          <div id="task"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
